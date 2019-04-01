@@ -10,5 +10,6 @@ This project is my attempt to show ways in which cosmetic companies can leverage
 
 Please note that I have taken inspiration from HBO's "Game of Thrones" and generated this imaginary data for educational purposes only, not for commercial purposes. 
 
-Final Report:
+###Final Report:
+
 https://htmlpreview.github.io/?https://github.com/skinsight/Game_of_Tones/blob/master/Analyze_Customer_Data.slides.html
