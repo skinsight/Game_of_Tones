@@ -13,4 +13,4 @@ Please note that I have taken inspiration from HBO's "Game of Thrones" and gener
 
 #### Final Report:
 
-https://github.com/skinsight/Game_of_Tones/blob/master/Analyze_Customer_Data.html
+https://htmlpreview.github.io/?https://github.com/skinsight/Game_of_Tones/blob/master/Analyze_Customer_Data.html
