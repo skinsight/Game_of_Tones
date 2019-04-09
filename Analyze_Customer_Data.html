@@ -12070,19 +12070,8 @@ Name: Daenerys Targaryen, dtype: int64</pre>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><code>2.</code> Let's use value_counts() to discover:</p>
-<ul>
-<li><strong>a.</strong> Which product has been purchased the most by each individual client. I will use this information to inform our   complimentary gift with purchase (GWP) promotion.     </li>
-<li><strong>b.</strong> Which product is the highest-performing and which product is the lowest-performing. To do this, I will first generate a total count of each product sold YTD. This information has nothing to do with the GWP promotion but will inform future product development initiatives. </li>
-</ul>
+<h4 id="a.-Marketing-Strategy-to-Increase-Client-Retention:-Customized-Complimentary-Gift-With-Purchase-(GWP)-Promotion">a. Marketing Strategy to Increase Client Retention: Customized Complimentary Gift With Purchase (GWP) Promotion<a class="anchor-link" href="#a.-Marketing-Strategy-to-Increase-Client-Retention:-Customized-Complimentary-Gift-With-Purchase-(GWP)-Promotion">&#182;</a></h4><p>Which product has been purchased the most by each individual client? I will use this information to inform our complimentary gift with purchase (GWP) promotion.</p>
 
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="a.-Marketing-Strategy-to-Increase-Client-Retention:-Customized-Complimentary-Gift-With-Purchase-(GWP)-Promotion">a. Marketing Strategy to Increase Client Retention: Customized Complimentary Gift With Purchase (GWP) Promotion<a class="anchor-link" href="#a.-Marketing-Strategy-to-Increase-Client-Retention:-Customized-Complimentary-Gift-With-Purchase-(GWP)-Promotion">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -12091,7 +12080,7 @@ Name: Daenerys Targaryen, dtype: int64</pre>
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">adg</span><span class="o">.</span><span class="n">get_complimentary_gifts</span><span class="p">(</span><span class="n">df</span><span class="p">)</span> <span class="c1">#Get most purchased product YTD for each customer and then print using .format() to inform fulfillment team</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">adg</span><span class="o">.</span><span class="n">get_complimentary_gifts</span><span class="p">(</span><span class="n">df</span><span class="p">)</span><span class="c1">#Get most purchased product YTD for each customer and print using .format() to inform fulfillment team</span>
 </pre></div>
 
 </div>
@@ -12143,7 +12132,8 @@ Send Talisa Stark a complimentary Essos Essence
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="b.-Product-Performance-Insight">b. Product Performance Insight<a class="anchor-link" href="#b.-Product-Performance-Insight">&#182;</a></h4>
+<h4 id="b.-Product-Performance-Insight">b. Product Performance Insight<a class="anchor-link" href="#b.-Product-Performance-Insight">&#182;</a></h4><p>Which product is the highest-performing and which product is the lowest-performing? To do this, I will first generate a total count of each product sold YTD. This information has nothing to do with the GWP promotion but will inform future product development initiatives.</p>
+
 </div>
 </div>
 </div>
@@ -12306,6 +12296,7 @@ Send Talisa Stark a complimentary Essos Essence
 
 </code></pre>
 <p>Given any customer sales data, I can efficiently generate a customized complimentary gift with purchase for him or her. By offering each customer a relevant, personalized gift with purchase, the GoTones team hopes to increase brand loyalty and client retention.</p>
+<p>One disadvantage of this marketing strategy is that it can lead to a temporary drop in primary sales. That said, an alternative strategy, designed specifically to prevent a temporary drop in primary sales, can be viewed in my GitHub repository entitled "GoTones-Personalized-Recommendations."</p>
 <h4 id="b.-Also,-based-on-my-data-analysis:">b. Also, based on my data analysis:<a class="anchor-link" href="#b.-Also,-based-on-my-data-analysis:">&#182;</a></h4><p>Highest-performing product is: Iron Throne Eye Cream</p>
 <p>Lowest-performing product is: Targaryen Toner</p>
 <p>This above information will not be applied to the GWP promotion. Rather, it will be shared with the GoTones marketing and product development teams to inform future campaigns.</p>
